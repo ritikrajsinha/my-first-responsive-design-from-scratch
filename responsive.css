@@ -1,0 +1,42 @@
+@media (max-width:768px)
+{
+    #latest-products ul{
+        grid-template-columns: 100%;
+    }  
+    main h1{
+        font-size: 2.5rem;
+        
+
+    }
+    #main-header nav{
+        display: none;
+    }
+}
+@media (min-width:769px)
+{
+    .menu-button {
+        display: none;
+    }
+}
+@media (max-width:400px){
+    #side-drawer ul p{
+        margin: 0;
+        padding: 0;
+        margin-left: 1rem;
+        display: flex;
+    }
+    #side-drawer div{
+        font-size: 2.2rem;
+    }
+    #correction{
+        margin-left: 1.3rem;
+    }
+
+    #side-drawer ul a{
+        margin: 0;
+        padding: 0;
+        
+    }
+
+
+}
